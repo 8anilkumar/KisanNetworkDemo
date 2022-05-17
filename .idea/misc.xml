@@ -5,8 +5,10 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.15677083333333333" />
         <entry key="app/src/main/res/layout/activity_message.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/contact_details_row.xml" value="0.5" />
         <entry key="app/src/main/res/layout/contact_row_layout.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_contact.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_contact_details.xml" value="0.19610507246376813" />
       </map>
     </option>
   </component>

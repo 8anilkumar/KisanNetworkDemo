@@ -10,10 +10,10 @@ import kotlinx.coroutines.flow.Flow
 @Dao
 interface ContactDao {
 
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun insertMessage(contactEntity: MessageEntity)
+    @Insert
+    fun insertMessage(contactEntity: MessageEntity)
 
-    @Query("SELECT * FROM message_table ORDER BY id ASC")
+    @Query("SELECT * FROM message_table")
     fun readMessage(): Flow<List<MessageEntity>>
 
 }

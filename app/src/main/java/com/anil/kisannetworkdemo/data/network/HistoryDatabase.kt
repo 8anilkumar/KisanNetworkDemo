@@ -9,5 +9,5 @@ import com.anil.kisannetworkdemo.utils.MessageTypeConverter
 @Database(entities = [MessageEntity::class], version = 1, exportSchema = false)
 @TypeConverters(MessageTypeConverter::class)
 abstract class HistoryDatabase: RoomDatabase() {
-    abstract fun recipesDao(): ContactDao
+    abstract fun contactDao(): ContactDao
 }

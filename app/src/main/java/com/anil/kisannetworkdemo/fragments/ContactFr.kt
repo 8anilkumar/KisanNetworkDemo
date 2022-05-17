@@ -56,6 +56,7 @@ class ContactFr : Fragment() {
 
             for (i in 0 until jsonArray.length()) {
                 val userContact: JSONObject = jsonArray.getJSONObject(i)
+
                 userFnameList.add(userContact.getString("fName"))
                 userLnameList.add(userContact.getString("lName"))
                 userNumberList.add(userContact.getString("number"))

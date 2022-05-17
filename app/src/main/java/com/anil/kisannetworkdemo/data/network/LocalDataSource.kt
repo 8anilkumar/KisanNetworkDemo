@@ -10,7 +10,7 @@ class LocalDataSource @Inject constructor(private val contactDao: ContactDao) {
         return contactDao.readMessage()
     }
 
-    suspend fun insertRecipes(recipesEntity: MessageEntity) {
+     fun insertRecipes(recipesEntity: MessageEntity) {
         contactDao.insertMessage(recipesEntity)
     }
 
